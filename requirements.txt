@@ -1,0 +1,11 @@
+torch
+torchvision
+ultralytics==8.4.215
+roboflow
+pycocotools
+numpy
+pandas
+Pillow
+matplotlib
+tqdm
+ipywidgets
