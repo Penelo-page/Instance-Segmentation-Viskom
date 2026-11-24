@@ -1,0 +1,10 @@
+konfigurasi,model,input_size,epoch,gpu,durasi_detik,durasi_menit,metode_perhitungan,sumber,cakupan
+yolov8n_seg_320_resmi,YOLOv8n-seg,320,30,Tesla T4,294.862000,4.914367,Kolom time pada epoch terakhir (kumulatif),bukti_training_asli/yolov8n_seg_320_resmi/results.csv,Training dan validasi; bukan pengukuran utilisasi GPU
+yolov8n_seg_640_resmi,YOLOv8n-seg,640,30,Tesla T4,345.070000,5.751167,Kolom time pada epoch terakhir (kumulatif),bukti_training_asli/yolov8n_seg_640_resmi/results.csv,Training dan validasi; bukan pengukuran utilisasi GPU
+yolov8n_seg_960_resmi,YOLOv8n-seg,960,30,Tesla T4,478.853000,7.980883,Kolom time pada epoch terakhir (kumulatif),bukti_training_asli/yolov8n_seg_960_resmi/results.csv,Training dan validasi; bukan pengukuran utilisasi GPU
+yolov8s_seg_320_resmi,YOLOv8s-seg,320,30,Tesla T4,305.590000,5.093167,Kolom time pada epoch terakhir (kumulatif),bukti_training_asli/yolov8s_seg_320_resmi/results.csv,Training dan validasi; bukan pengukuran utilisasi GPU
+yolov8s_seg_640_resmi,YOLOv8s-seg,640,30,Tesla T4,380.768000,6.346133,Kolom time pada epoch terakhir (kumulatif),bukti_training_asli/yolov8s_seg_640_resmi/results.csv,Training dan validasi; bukan pengukuran utilisasi GPU
+yolov8s_seg_960_resmi,YOLOv8s-seg,960,30,Tesla T4,658.182000,10.969700,Kolom time pada epoch terakhir (kumulatif),bukti_training_asli/yolov8s_seg_960_resmi/results.csv,Training dan validasi; bukan pengukuran utilisasi GPU
+maskrcnn_r50_fpn_320_resmi,Mask R-CNN ResNet-50 FPN,320,30,Tesla T4,2139.646137,35.660769,Jumlah kolom seconds seluruh epoch,bukti_training_asli/maskrcnn_r50_fpn_320_resmi/results.csv,Training dan validasi; bukan pengukuran utilisasi GPU
+maskrcnn_r50_fpn_640_resmi,Mask R-CNN ResNet-50 FPN,640,30,Tesla T4,2611.657483,43.527625,Jumlah kolom seconds seluruh epoch,bukti_training_asli/maskrcnn_r50_fpn_640_resmi/results.csv,Training dan validasi; bukan pengukuran utilisasi GPU
+maskrcnn_r50_fpn_960_resmi,Mask R-CNN ResNet-50 FPN,960,30,Tesla T4,3610.814413,60.180240,Jumlah kolom seconds seluruh epoch,bukti_training_asli/maskrcnn_r50_fpn_960_resmi/results.csv,Training dan validasi; bukan pengukuran utilisasi GPU
