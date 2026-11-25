@@ -18,7 +18,7 @@ Repository ini berisi pengerjaan tugas segmentasi instance pada lingkungan indoo
 │   ├── domain_shift_shared_classes.csv
 │   ├── eksperimen_confidence_dan_iou.csv     # Eksperimen 5 foto gagal
 │   ├── grafik/                
-│       ├── perbandingan_mask_AP.png
+│       ├── perbandingan_mask_AP.png          # Test Set Asli vs Test Set Sendiri
 │       └── domain_shift_shared.png
 │   └── perbandingan_model/     # Prediksi sembilan konfigurasi
 ├── analisis/
@@ -27,7 +27,7 @@ Repository ini berisi pengerjaan tugas segmentasi instance pada lingkungan indoo
 ├── logs/                       
 │   ├── waktu_training.csv      # Ringkasan durasi training
 │   └── [9 folder konfigurasi berisi results.csv]
-├── bukti/                      # Proses anotasi, metadata, dan foto sulit
+├── bukti/                      # Bukti anotasi, metadata, dan foto sulit
 ├── logbook.md                  # Hipotesis, kegiatan, kendala, dan keputusan
 ├── deklarasi_AI.md
 └── requirements.txt
