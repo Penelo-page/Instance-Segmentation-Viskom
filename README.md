@@ -16,14 +16,14 @@ Repository ini berisi pengerjaan tugas segmentasi instance pada lingkungan indoo
 ├── hasil/
 │   ├── hasil_evaluasi_semua.csv
 │   ├── domain_shift_shared_classes.csv
-│   ├── eksperimen_confidence_dan_iou.csv
+│   ├── eksperimen_confidence_dan_iou.csv     # Eksperimen 5 foto gagal
 │   ├── grafik/                
-        ├── perbandingan_mask_AP.png
-        └── domain_shift_shared.png
+│       ├── perbandingan_mask_AP.png
+│       └── domain_shift_shared.png
 │   └── perbandingan_model/     # Prediksi sembilan konfigurasi
 ├── analisis/
 │   ├── kegagalan.md            # Pembahasan lima kasus kegagalan & eksperiman
-│   └── gambar/                 # Foto, GT, dan prediksi
+│   └── gambar/                 # Foto, GT, dan prediksi (5 foto gagal)
 ├── logs/                       
 │   ├── waktu_training.csv      # Ringkasan durasi training
 │   └── [9 folder konfigurasi berisi results.csv]
