@@ -2,6 +2,7 @@
 
 ## Hipotesis
 
+16 November 2026
 Saya menduga Mask R-CNN ResNet-50 FPN akan menghasilkan segmentasi yang lebih baik dibandingkan YOLOv8n-seg dan YOLOv8s-seg, terutama pada objek kecil atau saling menutupi seperti buku dan botol. Mask R-CNN memproses region objek secara terpisah, sehingga diperkirakan dapat membedakan instance yang berdekatan dengan lebih baik.
 
 Saya juga menduga ukuran input 960 akan memberikan hasil mask terbaik pada ketiga model karena lebih banyak detail gambar dipertahankan dibandingkan input 320 dan 640. Namun, waktu pemrosesannya diperkirakan lebih lama.
